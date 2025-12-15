@@ -1,5 +1,5 @@
 # ElevensGame
-## Test & Project Overview:
+## Game Overview:
    Elevens is a card-based logic game where the player is dealt 9 cards (generally). The goal is to find valid combinations that either:
 
    - Add up to 11 (using two cards), or
@@ -8,7 +8,7 @@
 
    The game ends when there are no more valid combinations available, and the deck is empty. The player wins by clearing all cards from both the board and the deck.
 
-## ✅ What is included in this complete implementation?
+## ✅ What is include in this implementation?
    Full class design for: Suit, Rank, Card, Deck, and ElevensGame.
 
 ### Core gameplay logic:
@@ -51,6 +51,6 @@
       - Track and display remaining deck count, and selections.
       - Display winning message when deck is cleared.
 
-## 📐 UML Diagram (Made with Figma):
+## 📐 UML Diagram:
 
 <img width="710" src="images/Elevens_UML.png" alt="Elevens Game UML Class Diagram" />
