@@ -8,7 +8,7 @@
 
    The game ends when there are no more valid combinations available, and the deck is empty. The player wins by clearing all cards from both the board and the deck.
 
-## ✅ What is include in this implementation?
+## ✅ What is included in this implementation?
    Full class design for: Suit, Rank, Card, Deck, and ElevensGame.
 
 ### Core gameplay logic:
