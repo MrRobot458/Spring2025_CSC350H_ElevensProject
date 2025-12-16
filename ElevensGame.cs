@@ -44,22 +44,24 @@ class Program
             // Display the layout
             DisplayLayout(layout, deck.RemainingCards);
             
-            // Check if any moves are available
+            // Check if any moves are available (regardless of deck status)
             if (!HasValidMoves(layout))
             {
-                if (deck.RemainingCards == 0)
-                {
-                    gameLost = true;
-                    Console.WriteLine("\n*** No more moves available. Game Over! ***");
-                    break;
-                }
+                gameLost = true;
+                Console.WriteLine("\n╔════════════════════════════════════════╗");
+                Console.WriteLine("║  No valid moves available!             ║");
+                Console.WriteLine("║  GAME OVER - You Lose!                 ║");
+                Console.WriteLine("╚════════════════════════════════════════╝");
+                break;
             }
             
             // Check win condition
             if (AllCardsRemoved(layout) && deck.RemainingCards == 0)
             {
                 gameWon = true;
-                Console.WriteLine("\n*** Congratulations! You won! ***");
+                Console.WriteLine("\n╔════════════════════════════════════════╗");
+                Console.WriteLine("║  🎉 Congratulations! You Won! 🎉       ║");
+                Console.WriteLine("╚════════════════════════════════════════╝");
                 break;
             }
             
