@@ -1,6 +1,6 @@
 # ElevensGame
 ## Game Overview:
-   Elevens is a card-based logic game where the player is dealt 9 cards (generally). The goal is to find valid combinations that either:
+   Elevens is a card-based logic game where the player is dealt 9 cards (generally), in this version it's 8 cards. The goal is to find valid combinations that either:
 
    - Add up to 11 (using two cards), or
 
